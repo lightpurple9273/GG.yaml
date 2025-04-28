@@ -1,0 +1,21 @@
+---
+- name: Moving
+  options:
+    move: true
+    pan: true
+    zoom: true
+- name: NM
+  options:
+    move: false
+    pan: true
+    zoom: true
+- name: NMPZ
+  options:
+    move: false
+    pan: false
+    zoom: false
+- name: NPZ
+  options:
+    move: true
+    pan: false
+    zoom: false
